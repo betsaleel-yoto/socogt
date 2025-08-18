@@ -10,7 +10,7 @@
         /* Variables et reset */
         :root {
             --primary-dark: #405953;
-            --primary-light: #e9f0ee;
+            --primary-light: #FFC300;
             --pure-white: #FFFFFF;
             --light-white: #FEFEFE;
             --off-white: #F5F5F5;
@@ -867,7 +867,7 @@
             <div class="hero-content">
                 <h1 class="hero-title">Excellence en Bâtiment et Logistique</h1>
                 <p class="hero-subtitle">SOCOGT - Société Congolaise des Grands Travaux, bâtissant l'avenir de la RDC depuis 2005</p>
-                <a href="#contact" class="btn hero-btn">Contactez-nous</a>
+                <a href="#contact" class="btn hero-btn"  style='background-color:#FFC300;'>Contactez-nous</a>
             </div>
         </div>
         <div class="hero-pattern"></div>
@@ -957,7 +957,7 @@
                         </div>
                         <h3 class="service-title">Construction</h3>
                         <p class="service-description">Bâtiments résidentiels, commerciaux et industriels de haute qualité avec des normes internationales adaptées au contexte congolais.</p>
-                        <a href="#" class="btn">En savoir plus</a>
+                        <a href="#" class="btn" style='background-color:#FFC300;'>En savoir plus</a>
                     </div>
                 </div>
                 <div class="service-card animate-on-scroll">
@@ -972,7 +972,7 @@
                         </div>
                         <h3 class="service-title">Transport Logistique</h3>
                         <p class="service-description">Solutions complètes de transport et logistique à travers toute la République Démocratique du Congo et l'Afrique Centrale.</p>
-                        <a href="#" class="btn">En savoir plus</a>
+                        <a href="#" class="btn" style='background-color:#FFC300;'>En savoir plus</a>
                     </div>
                 </div>
                 <div class="service-card animate-on-scroll">
@@ -987,7 +987,7 @@
                         </div>
                         <h3 class="service-title">Infrastructures Publiques</h3>
                         <p class="service-description">Routes, ponts, réseaux d'eau et autres infrastructures essentielles pour le développement de la RDC.</p>
-                        <a href="#" class="btn">En savoir plus</a>
+                        <a href="#" class="btn" style='background-color:#FFC300;'>En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -1041,18 +1041,32 @@
         </div>
     </section>
 
-    <!-- Hospital Project -->
-    <section id="hospital" class="hospital-project">
-        <div class="hospital-pattern"></div>
-        <div class="container">
-            <div class="hospital-content animate-on-scroll">
-                <h2 class="hospital-title">Clinique Santé</h2>
-                <p class="hospital-subtitle">Notre prochain grand projet: Un centre médical ultramoderne en RDC</p>
-                <p>La Clinique Santé sera un établissement médical de pointe offrant des soins de qualité à la population congolaise. Située à Kinshasa, cette clinique disposera des équipements les plus modernes et d'un personnel médical hautement qualifié, représentant notre engagement envers le bien-être de la nation congolaise.</p>
-                <a href="#contact" class="btn" style="margin-top: 30px;">Soutenir le projet</a>
-            </div>
-        </div>
-    </section>
+   <!-- Hospital Project -->
+<section id="hospital" class="hospital-project" style="position: relative; 
+background-image: url('https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg'); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;">
+
+<!-- Overlay semi-transparent -->
+<div style="position: absolute; 
+    top: 0; left: 0; right: 0; bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;">
+</div>
+
+<div class="hospital-pattern"></div>
+<div class="container" style="position: relative; z-index: 2;">
+    <div class="hospital-content animate-on-scroll" >
+        <h2 class="hospital-title" style="text-shadow: 2px 2px 4px white;">Clinique Santé</h2>
+        <p class="hospital-subtitle" style="color:white;">Notre prochain grand projet: Un centre médical ultramoderne en RDC</p>
+        <p style="color:white;">La Clinique Santé sera un établissement médical de pointe offrant des soins de qualité à la population congolaise. Située à Kinshasa, cette clinique disposera des équipements les plus modernes et d'un personnel médical hautement qualifié, représentant notre engagement envers le bien-être de la nation congolaise.</p>
+        <a href="#contact" class="btn" style="margin-top: 30px; background-color:#FFC300;">Soutenir le projet</a>
+    </div>
+</div>
+</section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="section contact">
@@ -1124,7 +1138,7 @@
                         <div class="form-group">
                             <textarea class="form-input" placeholder="Votre message" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Envoyer le message</button>
+                        <button type="submit" class="btn" style='background-color:#FFC300;'>Envoyer le message</button>
                     </form>
                 </div>
             </div>
